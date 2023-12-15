@@ -1,0 +1,33 @@
+:root{
+  --blue: #1e90ff;
+  --cinza-instagram: #dbdbdb;
+  --black: #000000;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+main{
+  display: flex;
+}
+.LateralEsquerda{
+  background: var(--white);
+  border-right: 1px solid var(--cinza-instagram);
+  height: 100vh;
+  width: 16.5vw;
+  position: fixed;
+}
+.LateralDireita{
+  height: 100vh;
+  width: 28.5vw;
+}
+.ConteudoCentral{
+  background: var(--white);
+  height: 100vh;
+  width: 55vw;
+}

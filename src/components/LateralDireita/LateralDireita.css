@@ -1,0 +1,101 @@
+.iconLateralDireita{
+    height: 2.825rem;
+    width: 2.825rem;
+    border: 2.5px solid #fff;
+    cursor: pointer;
+}
+.borderAside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.925rem;
+    width: 2.925rem;
+    background-color: #c3c3c3;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 9.5rem;
+}
+.alignAside{
+    display: flex;
+    flex-direction: column;
+    margin-left: .625rem;
+}
+.nomeAside{
+    font-weight: 600;
+    cursor: pointer;
+}
+.nickAside{
+    color: #737373;
+}
+.mudar{
+    color: #0095F6;
+    cursor: pointer;
+    font-size: .825rem;
+    font-weight: 600;
+}
+.midAsideChild1{
+    font-size: .925rem;
+    color: #737373;
+    margin-left: 1rem;
+}
+.midAside{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    font-size: .825rem;
+}
+.midAsideChild2{
+    cursor: pointer;
+}
+.sugestoes img{
+    width: 2.825rem;
+    height: 2.825rem;
+    border: .5px solid #737373;
+}
+.sugestoes{
+    display: flex;
+    align-items: center;
+    width: 18.5rem;
+    margin: 1rem 0 0 1.5rem;
+}
+.spanSugest{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-size: .825rem;
+}
+.spanSugest :first-child{
+    font-weight: 600;
+    cursor: pointer;
+}
+.spanSugest :not(:first-child){
+    color: #737373;
+}
+.seguir span{
+    color: #0095F6;
+    font-size: .825rem;
+}
+.direitos{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0 0 1.5rem;
+}
+.direitos span p{
+    color: #c3c3c3;
+    font-size: .825rem;
+}
+.direitos :not(:first-child){
+    margin-top: 1rem;
+}
+.iconAside{
+    cursor: pointer;
+}

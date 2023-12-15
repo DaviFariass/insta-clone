@@ -1,0 +1,174 @@
+.ConteudoCentral{
+    margin-left: 15.225rem;
+}
+.Stories{
+    display: flex;
+    width: 100%;
+    margin: 3.225rem 3rem 3.6rem 6.5rem;
+}
+.icon{
+    border-radius: 50%;
+}
+.Border{
+    background: linear-gradient(-125deg, #DD43D2, #ff2a69, #FFD13B);
+    border-radius: 50%;
+    width: 3.935rem;
+    height: 3.935rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.Border2{
+    border-radius: 50%;
+    background-color: #FFF;
+    width: 3.625rem;
+    height: 3.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.Itemstories{
+    margin: 0 .525rem;
+    cursor: pointer;
+}
+.Itemstories p{
+    font-size: .925rem;
+    text-align: center;
+    font-weight: 10;
+}
+.Post{
+    width: 56%;
+    margin: 0 auto;
+}
+.Timeline{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+.HeaderUsuario{
+    display: flex;
+    align-items: center;
+}
+.Headerpost,
+.HeaderUsuario{
+    width: 100%;
+}
+.ImgUsuarioBorder{
+    background: linear-gradient(-125deg, #DD43D2, #ff2a69, #FFD13B);
+    border-radius: 50%;
+    width: 2.635rem;
+    height: 2.635rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+.ImgUsuarioBorder2{
+    border-radius: 50%;
+    background-color: #FFF;
+    width: 2.325rem;
+    height: 2.325rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.Component-Headerpost{
+    margin-left: .625rem;
+}
+.Component-Headerpost1{
+    font-weight: 600;
+}
+.Headerpost p{
+    font-size: 13px;
+}
+
+.Component-Headerpost2{
+    display: flex;
+    align-items: center;
+    color: #737373;
+}
+.dot{
+    margin-bottom: .475rem;
+}
+.separador{
+    flex-grow: 1;
+}
+.ImgContent{
+    border-radius: 5px;
+    border: .5px solid #a09b99;
+    margin: .725rem 0 .425rem 0;
+}
+.botoes span:not(:first-child){
+    margin-left: .825rem;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+}
+.curtidas{
+    display: flex;
+    align-items: center;
+}
+.curtidas span{
+    margin: .625rem 0 .6rem .725rem;
+}
+.curtidas a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.Descricao{
+    display: flex;
+}
+.Descricao a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: .725rem;
+}
+.comentarios{
+    padding-bottom: 1rem;
+    margin: .625rem 0 1.725rem 0;
+    border-bottom: .5px solid #737373;
+}
+.more{
+    cursor: pointer;
+    color: #737373;
+    margin-bottom: .625rem;
+}
+.coment{
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.coment a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+.heartComent{
+    cursor: pointer;
+}
+.comentar{
+    display: flex;
+    align-items: center;
+    margin-top: .625rem;
+    color: #737373;
+}
+.NameUsuario{
+    cursor: pointer;
+}
+.btnHeart :hover,
+.btnComment :hover,
+.btnSend :hover,
+.btnSave :hover{
+    color: #737373;
+}
+.emoji:hover{
+    color: #c3c3c3;
+}
